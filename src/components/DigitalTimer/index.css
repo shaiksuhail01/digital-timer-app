@@ -1,0 +1,179 @@
+.divContainer {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.timerContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 320px;
+}
+.boxContainer {
+  background-color: #ffffff;
+  border-radius: 74px;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.time {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #00d9f5;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.desc {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.timerLimitContainer {
+  margin-top: 0px;
+}
+.startOrPauseImage {
+  width: 25px;
+}
+.startOrPauseButtons {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startOrPauseHeading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 22px;
+}
+.buttonsContainer {
+  display: flex;
+  margin-bottom: 22px;
+  justify-content: center;
+  align-items: center;
+}
+.startOrPauseButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.incrementOrDecrementButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.limitContainer {
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  border-width: 0px;
+  border-radius: 10px;
+  height: 55px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.limitValue {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 28px;
+  text-align: center;
+}
+.incrementAndDecrementButton {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 38px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  margin: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .divContainer {
+    padding: 72px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .timerContainer {
+    height: 400px;
+    width: 470px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .startOrPauseImage {
+    width: 34px;
+  }
+  .startOrPauseHeading {
+    font-size: 27px;
+  }
+  .timerLimitContainer {
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .boxContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 190px;
+  }
+  .time {
+    font-size: 35px;
+  }
+  .desc {
+    font-size: 23px;
+  }
+}
